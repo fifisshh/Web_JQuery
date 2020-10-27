@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "微軟正黑體";
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.3);
+    color: whitesmoke;
+    span {
+        display: inline-block;
+        padding: 10px 30px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+}
+section {
+    background-color: #C2B8B2;
+    height: 100vh;
+    font-size: 36px;
+    text-align: center;
+    color: whitesmoke;
+    &:nth-of-type(2) {
+        background-color: #8A716A;
+    }
+}
+
+#toTop {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    padding: 3px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}

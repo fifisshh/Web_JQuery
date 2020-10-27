@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery 前往元素效果</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav id="top">
+        <span data-gt-target="#box1" data-gt-dur="1000" data-gt-offset="0">連結1</span>
+        <span data-gt-target="#box2" data-gt-dur="1500" data-gt-offset="200">連結2</span>
+        <span data-gt-target="#box3" data-gt-dur="2000" data-gt-offset="0">連結3</span>
+    </nav>
+
+    <section id="box1">區塊1</section>
+    <section id="box2">區塊2</section>
+    <section id="box3">區塊3</section>
+    <img src="./img/arrow.png" alt="返回上方" id="toTop" data-gt-target="#top" data-gt-dur="1500" data-gt-offset="0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
